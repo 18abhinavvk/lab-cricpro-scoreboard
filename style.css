@@ -1,6 +1,41 @@
 /* Type your code here */
-
-
+*{
+	margin: 0;
+	padding: 0;
+	font-family:Arial, Helvetica, sans-serif;
+}
+h1{
+	font-size: 50px;
+	text-shadow: 2px 2px;
+	
+}
+p{
+	font-size: 25px;
+}
+table{
+	margin-top: 25px;
+	width: 70%;
+}
+table th{
+	background-color: rgb(214, 62, 62);
+	padding: 10px 20px;
+}
+table tr:nth-child(even){
+	background: linear-gradient(to left, rgba(255,0,0,0), rgb(211, 211, 211))
+	
+}
+table td{
+	padding: 10px 15px;
+}
+.container{
+	margin-right: 10%;
+	padding: 25px;
+	padding-left: 50px;
+	background: url("assets/background-image1.png") no-repeat right bottom;
+}
+.logo{
+	text-align: right;
+}
 /* change the font family and spacing as per your project font */
 .footer{
     display:flex;
